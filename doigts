@@ -1,0 +1,9 @@
+a = int(input("Nombre de doigts de A :"))
+b = int(input("Nombre de doigts de B :"))
+somme = a + b
+
+if (somme % 2 == 0) :
+   print("A gagne")
+else :
+   print ("B gagne")
+   
